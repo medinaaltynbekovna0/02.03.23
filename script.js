@@ -28,3 +28,20 @@ document.querySelector("#text-color").addEventListener("input",
 function(){
 	h1.style.Color = this.value;
 });
+
+
+document.querySelector("#font-family").addEventListener("change",
+function(){
+	h1.style.fontFamily = this.value;
+});
+
+document.querySelector("#text-bold").addEventListener("change",
+function(){
+	if (this.checked){
+		h1.style.fontWeight = "bold";
+	}
+	else {
+		h1.style.fontWeight = "normal";
+	}
+	
+});
