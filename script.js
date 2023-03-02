@@ -24,3 +24,7 @@ function(){
 	h1.style.fontSize = this.value +'px';
 });
 
+document.querySelector("#text-color").addEventListener("input",
+function(){
+	h1.style.Color = this.value;
+});
