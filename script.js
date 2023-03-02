@@ -43,5 +43,10 @@ function(){
 	else {
 		h1.style.fontWeight = "normal";
 	}
-	
-});
+	if (this.checked){
+		h1.style.textDecoration = "underline" ;
+	}
+	else{
+		h1.fontStyle = "italic";
+	}
+})
